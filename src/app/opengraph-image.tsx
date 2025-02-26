@@ -92,8 +92,8 @@ export default async function Image() {
 
   const options = await initializeFonts();
 
-  const BACKGROUND_GRADIENT_START = "#c026d3";
-  const BACKGROUND_GRADIENT_END = "#ef4444";
+  const BACKGROUND_GRADIENT_START = "#2563eb";  // Blue 600
+  const BACKGROUND_GRADIENT_END = "#0f172a";    // Slate 900
   const BACKGROUND_GRADIENT_STYLE = {
     backgroundImage: `linear-gradient(to bottom, ${BACKGROUND_GRADIENT_START}, ${BACKGROUND_GRADIENT_END})`,
     color: "white",
